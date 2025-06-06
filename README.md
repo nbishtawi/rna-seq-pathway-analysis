@@ -1,39 +1,50 @@
 # RNA-Seq & Pathway Enrichment Analysis of Irradiated Mouse Salivary Tissue
 
-This project explores transcriptomic changes in irradiated mouse salivary gland tissue using publicly available RNA-seq data. We identify differentially expressed genes (DEGs) and investigate enriched biological pathways using KEGG pathway analysis.
-
-The analysis is performed using R and Bioconductor packages, including **DESeq2** for differential expression and **clusterProfiler** for pathway enrichment.
+This project explores molecular changes in irradiated mouse salivary gland tissue using RNA-seq and metabolomics data. We perform differential gene expression analysis and KEGG pathway enrichment, with ongoing integration of metabolomics data and development of a formal technical white paper.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-- Load and merge raw gene count data
-- Perform differential expression analysis (irradiated vs untreated) with DESeq2
-- Visualize results using volcano plot and heatmap
-- Perform KEGG pathway enrichment with clusterProfiler
-- Save all outputs in structured folders (`results/`, `figures/`)
-
----
-
-## 📦 Tools and Packages
-
-- [`DESeq2`](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-- [`clusterProfiler`](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
-- `org.Mm.eg.db` (mouse gene annotation)
-- `EnhancedVolcano`, `pheatmap`, `readr`, `dplyr`, `tibble`, `purrr`
+- ✅ **Identify differentially expressed genes (DEGs)** from RNA-seq data using DESeq2
+- ✅ **Perform KEGG pathway enrichment** on DEGs using clusterProfiler
+- 🔄 **Integrate metabolomics data** using MetaboAnalystR (in progress)
+- 🔄 **Perform joint pathway analysis** across omics layers (in progress)
+- 🧾 **Produce a professional white technical paper** documenting the full methodology and findings (in progress)
 
 ---
 
-## 📊 Sample Outputs
+## 🧬 Data Sources
+
+- **RNA-Seq**: [NCBI GEO - GSE155902](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155902)  
+- **Metabolomics**: [Zenodo - DOI: 10.5281/zenodo.4391402](https://zenodo.org/records/4391402)
+
+---
+## 📦 Tools & Packages Used
+
+- `DESeq2`
+- `clusterProfiler`
+- `org.Mm.eg.db`
+- `EnhancedVolcano`, `pheatmap`, `readr`, `dplyr`, `purrr`
+- `MetaboAnalystR` (to be added)
+
+---
+
+## 📊 Example Outputs
 
 ### Top Enriched KEGG Pathways  
 ![](figures/kegg_barplot.png)
 
-### Volcano Plot of DEGs  
+### Volcano Plot  
 ![](figures/volcano_plot.png)
 
-📚 Data Sources
-RNA-Seq: NCBI GEO - GSE155902
+---
 
-Metabolomics: Zenodo - DOI: 10.5281/zenodo.4391402
+## 📄 White Paper (In Progress)
+The formal white technical paper for this project is being developed in the whitepaper/ folder.
+
+Format: .docx 
+
+Contents will include: research background, RNA-seq methods, KEGG enrichment, integration strategy, and figures
+
+
