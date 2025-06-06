@@ -1,0 +1,54 @@
+taurocyamine
+glycosyl ceramide d18:1/20:0, d16:1/22:0
+cinnamoylglycine
+ribulose/xylulose
+6-keto prostaglandin F1alpha
+leucylalanine
+tyrosylglycine
+leucylglutamine
+taurochenodeoxycholate
+chenodeoxycholate
+phenylalanylglycine
+hippurate
+alanylleucine
+deoxycholate
+arginine
+pipecolate
+putrescine
+glutamine
+N-oxalyl glycine NOG
+taurodeoxycholate
+2'-deoxyadenosine 3'-monophosphate
+glycosyl ceramide d18:2/24:1, d18:1/24:2
+N-formylphenylalanine
+N'1-acetylspermidine
+glycylleucine
+cysteinylglycine disulfide
+12-HHTrE
+argininosuccinate
+glucosamine-6-phosphate
+cystine
+phenylpyruvate
+2'-deoxyinosine
+prostaglandin E2
+3-hydroxybutyrate BHBA
+2-oleoylglycerol 18:1
+1-arachidonylglycerol 20:4
+2-myristoylglycerol 14:0
+2-docosahexaenoylglycerol 22:6
+2-palmitoleoylglycerol 16:1
+1-dihomo-linolenylglycerol 20:3
+1-linolenoylglycerol 18:3
+3-4-hydroxyphenylpropionate
+3-methylcytidine
+2-linoleoylglycerol 18:2
+1-palmitoleoylglycerol 16:1
+2-hydroxyoctanoate
+2-arachidonoylglycerol 20:4
+glutathione, reduced GSH
+glycerol 3-phosphate
+coenzyme A
+3-3-hydroxyphenylpropionate
+equol sulfate
+S-lactoylglutathione
+1-heptadecenoylglycerol 17:1
