@@ -5,19 +5,6 @@ This project explores transcriptomic changes in irradiated mouse salivary gland 
 The analysis is performed using R and Bioconductor packages, including **DESeq2** for differential expression and **clusterProfiler** for pathway enrichment.
 
 ---
-## 📁 Repository Structure
-rna-seq-pathway-analysis/
-├── data/
-│ └── raw/ # RNA-seq and metabolomics input files (.txt, .csv)
-├── results/ # DESeq2 output tables and pathway enrichment results
-├── figures/ # Volcano plot, heatmap, KEGG pathway barplot
-├── scripts/
-│ └── rna_seq_pipeline.Rmd # R Markdown pipeline
-├── README.md
-├── LICENSE
-└── .gitignore
-
----
 
 ## 🎯 Objectives
 
