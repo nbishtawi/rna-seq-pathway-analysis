@@ -62,3 +62,4 @@ Contents include:
 - Visualizations (PCA, heatmaps, volcano plots, barplots)  
 - Reflections on tool performance and reproducibility
 
+🔗 [View whitepaper]([https://github.com/nbishtawi/Voice-Cloning-and-Fake-Audio-Detection](https://github.com/nbishtawi/rna-seq-pathway-analysis/blob/main/whitepaper/Comparative%20Transcriptomic%20Analysis%20of%20Irradiated%20Mouse%20Salivary%20Glands%20Using%20R%20and%20Python%20Pipelines.docx))
