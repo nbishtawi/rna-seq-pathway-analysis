@@ -1,50 +1,64 @@
 # RNA-Seq & Pathway Enrichment Analysis of Irradiated Mouse Salivary Tissue
 
-This project explores molecular changes in irradiated mouse salivary gland tissue using RNA-seq and metabolomics data. We perform differential gene expression analysis and KEGG pathway enrichment, with ongoing integration of metabolomics data and development of a formal technical white paper.
+This project analyzes transcriptomic changes in irradiated mouse salivary gland tissue using RNA sequencing (RNA-seq). We perform differential gene expression analysis and KEGG pathway enrichment in both R and Python environments. The project culminates in a formal white paper comparing methodological pipelines across programming languages.
 
 ---
 
 ## 🎯 Project Objectives
 
-- ✅ **Identify differentially expressed genes (DEGs)** from RNA-seq data using DESeq2
-- ✅ **Perform KEGG pathway enrichment** on DEGs using clusterProfiler
-- 🔄 **Integrate metabolomics data** using MetaboAnalystR (in progress)
-- 🔄 **Perform joint pathway analysis** across omics layers (in progress)
-- 🧾 **Produce a professional white technical paper** documenting the full methodology and findings (in progress)
+- ✅ **Identify differentially expressed genes (DEGs)** from RNA-seq data using DESeq2 (R) and pyDESeq2 (Python)
+- ✅ **Perform KEGG pathway enrichment** using clusterProfiler (R) and gprofiler-official (Python)
+- ✅ **Compare R and Python pipelines** for RNA-seq analysis and visualization
+- ✅ **Produce a professional white paper** documenting the full methodology, code, figures, and findings
 
 ---
 
-## 🧬 Data Sources
+## 🧬 Data Source
 
-- **RNA-Seq**: [NCBI GEO - GSE155902](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155902)  
-- **Metabolomics**: [Zenodo - DOI: 10.5281/zenodo.4391402](https://zenodo.org/records/4391402)
+- **RNA-Seq**: [NCBI GEO - GSE155902](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155902)
 
 ---
+
 ## 📦 Tools & Packages Used
 
+### R
 - `DESeq2`
 - `clusterProfiler`
 - `org.Mm.eg.db`
-- `EnhancedVolcano`, `pheatmap`, `readr`, `dplyr`, `purrr`
-- `MetaboAnalystR` (to be added)
+- `AnnotationDbi`
+- `EnhancedVolcano`
+- `pheatmap`
+- `readr`, `dplyr`, `ggplot2`, `tidyverse`, `purr`
 
+### Python
+- `pyDESeq2`
+- `gprofiler-official`
+- `gseapy`
+- `mygene`
+- `pandas`, `seaborn`, `matplotlib`, `scikit-learn`, `numpy`
+- `os`, `glob`
 ---
 
 ## 📊 Example Outputs
 
-### Top Enriched KEGG Pathways  
-![](figures/kegg_barplot.png)
-
 ### Volcano Plot  
-![](figures/volcano_plot.png)
-
+#### Python Implimentation 
+![Volcano Plot Python](figures/volcano_plot_python.png)
+#### R Implimentation 
+![Volcano Plot R](figures/volcano_plot_R.png)
 ---
 
-## 📄 White Paper (In Progress)
-The formal white technical paper for this project is being developed in the whitepaper/ folder.
+## 📄 White Paper
 
-Format: .docx 
+The formal technical white paper is located in the `whitepaper/` folder.
 
-Contents will include: research background, RNA-seq methods, KEGG enrichment, integration strategy, and figures
+**Format**: `.docx`  
+**Title**: *Comparative Transcriptomic Analysis of Irradiated Mouse Salivary Glands Using R and Python Pipelines*  
 
+Contents include:  
+- Research background and biological motivation  
+- RNA-seq processing steps and DEG filtering  
+- KEGG enrichment workflow and results  
+- Visualizations (PCA, heatmaps, volcano plots, barplots)  
+- Reflections on tool performance and reproducibility
 
