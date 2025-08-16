@@ -4,22 +4,22 @@ This project analyzes transcriptomic changes in irradiated mouse salivary gland 
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
-- ✅ **Identify differentially expressed genes (DEGs)** from RNA-seq data using DESeq2 (R) and pyDESeq2 (Python)
-- ✅ **Perform KEGG pathway enrichment** using clusterProfiler (R) and gprofiler-official (Python)
-- ✅ **Compare R and Python pipelines** for RNA-seq analysis and visualization
-- ✅ **Produce a professional white paper** documenting the full methodology, code, figures, and findings
+- **Identify differentially expressed genes (DEGs)** from RNA-seq data using DESeq2 (R) and pyDESeq2 (Python)
+- **Perform KEGG pathway enrichment** using clusterProfiler (R) and gprofiler-official (Python)
+- **Compare R and Python pipelines** for RNA-seq analysis and visualization
+- **Produce a professional white paper** documenting the full methodology, code, figures, and findings
 
 ---
 
-## 🧬 Data Source
+## Data Source
 
 - **RNA-Seq**: [NCBI GEO - GSE155902](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155902)
 
 ---
 
-## 📦 Tools & Packages Used
+## Tools & Packages Used
 
 ### R
 - `DESeq2`
@@ -39,7 +39,7 @@ This project analyzes transcriptomic changes in irradiated mouse salivary gland 
 - `os`, `glob`
 ---
 
-## 📊 Example Outputs
+## Example Outputs
 
 ### Volcano Plot  
 #### Python Implimentation 
@@ -48,7 +48,7 @@ This project analyzes transcriptomic changes in irradiated mouse salivary gland 
 ![Volcano Plot R](figures/volcano_plot_R.png)
 ---
 
-## 📄 White Paper
+## White Paper
 
 The formal technical white paper is located in the `whitepaper/` folder.
 
