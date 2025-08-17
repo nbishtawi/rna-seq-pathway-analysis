@@ -68,6 +68,7 @@ Contents include:
 
 ## Repository Structure
 ```
+rna-seq-pathway-analysis/
 ├── data/
 │   └── raw/                      # Raw RNA-seq and metabolomics data
 │       ├── GSM*.txt              # Count files for each RNA-seq sample
